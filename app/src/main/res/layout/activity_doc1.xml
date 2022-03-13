@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#79B1DD"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Doc1">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Dr. Soumiya Mudgal"
+        android:textAllCaps="true"
+
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="MBBS Addiction Psychiatrist, Psychiatrist 16 Years Experience Overall  (11 years as specialist)"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Medical Registration Verified"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="79% (19 votes)"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:paddingLeft="28dp"
+        android:paddingRight="28dp"
+        android:text="Dr. Soumiya Mudgal is an Addiction Psychiatrist,General Psychiatrist, De-addiction and Adolescent And Child Psychiatrist in South Delhi- South extension area and has an experience of 10 years in these fields. Dr. Soumiya Mudgal practices at SAMA Hospital, in South Delhi, Auriga Psychiatry Centre in Shalimar Bagh, Delhi and Max Hospital in Sushant Lok I, Gurgaon. She completed MD - Psychiatry from Santosh University, in 2011, Fellowship in Clinical Neurophysiology  Epilepsy from Cleaveland Clinic, USA in 2010 and Certificate in Child and Adolescent Mental Health from National Institute of Mental Health and Neurosciences (NIMHANS) in 2009"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Rating=⭐⭐⭐⭐⭐"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

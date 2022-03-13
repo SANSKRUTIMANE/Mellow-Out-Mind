@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#79B1DD"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/Text_view_doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Doctor"
+            android:textColor="#052C2B"
+            android:textSize="70sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_doc1"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Text_view_doctor"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="65sp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="79dp"
+            android:layout_marginEnd="110dp"
+            android:layout_marginBottom="2dp"
+
+            app:cardCornerRadius="15sp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/doc11" />
+
+                <TextView
+                    android:id="@+id/Text_view_doc_name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="DOCTOR 1"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_doc2"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_view_doc1"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="65sp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="79dp"
+            android:layout_marginEnd="110dp"
+            android:layout_marginBottom="2dp"
+            app:cardCornerRadius="15sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/doc55" />
+
+                <TextView
+                    android:id="@+id/Text_view_doc_name2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="DOCTOR-2"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_doc3"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_view_doc2"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="65sp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="79dp"
+            android:layout_marginEnd="110dp"
+            android:layout_marginBottom="2dp"
+            app:cardCornerRadius="15sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/doc22" />
+
+                <TextView
+                    android:id="@+id/Text_view_doc_name3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="DOCTOR 3"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_doc4"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_view_doc3"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="65sp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="79dp"
+            android:layout_marginEnd="110dp"
+            android:layout_marginBottom="2dp"
+            app:cardCornerRadius="15sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/doc33" />
+
+                <TextView
+                    android:id="@+id/Text_view_doc_name4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="DOCTOR 4"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_doc5"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_view_doc4"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="65sp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="79dp"
+            android:layout_marginEnd="110dp"
+            android:layout_marginBottom="2dp"
+            app:cardCornerRadius="15sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/doc44" />
+
+                <TextView
+                    android:id="@+id/Text_view_doc_name5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="DOCTOR 5"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</ScrollView>

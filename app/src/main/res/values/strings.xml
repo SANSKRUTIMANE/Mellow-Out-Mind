@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mellow Out Mind</string>
+    <string name="register">Register</string>
+    <string name="login">LogIn</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="mellow_out_mind">Mellow Out Mind!</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="already_registered">Already Registered</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="not_registered_yet">Not Registered Yet</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="heading">A Short Quiz for You!</string>
+    <string name="StartQuiz">Take the quiz</string>
+    <string name="a_short_quiz_for_you">A Short Quiz For You!</string>
+    <string name="display_doctors">Display Doctors</string>
+</resources>
